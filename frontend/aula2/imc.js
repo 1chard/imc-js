@@ -17,7 +17,7 @@ function test() {
 	}
 	
 	if(result < 18.5)
-		corpo = "um magrelo";
+		corpo = "magrelo";
 	else if(result < 24.9)
 		corpo = "saudavel";
 	else if(result < 29.9)

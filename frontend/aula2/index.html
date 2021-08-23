@@ -4,7 +4,7 @@
     <link href="style.css" type="text/css" rel="stylesheet">
     <meta charset="utf-8">
 
-    <script src="imc.js" defer></script>
+    <script src="professor.js" defer></script>
 </head>
 <body>
     <header>
@@ -38,31 +38,31 @@
                     <div>IMC 25.0 - 39.9</div>
                     <div>obesidade grau II</div>
                 </li>
-                <li>
+            <li>
                     <div>IMC maiores que 40</div>
                     <div>obesidade grau III</div>
                 </li>
             </ul>
         </aside>
-        <section>
+        <form>
             <div>
                 <label>Nome:</label>
-                <input type="text" name="nome" id="nome">
+                <input id="nome" required>
             </div>
             <div class="extra" data-unidade="metros">
                 <label>Altura:</label>
-                <input type="text" name="altura" id="altura">
+                <input type="" id="altura" required step="any">
             </div>
             <div class="extra" data-unidade="quilos">
                 <label>Peso:</label>
-                <input type="text" name="quile" id="quilo">
+                <input type="number" id="quilo" required step="any">
             </div>
             <div>
                 <input type="button" id="butao" value="calcular">
             </div>
             <div id="resultado">
             </div>
-        </section>
+        </form>
     </main>
     <footer>
         <span>Copyright - Richard*</span>
