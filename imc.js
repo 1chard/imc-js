@@ -53,7 +53,6 @@ function stringIsNumber(fx) {
                 case '8':
                 case '9':
 		case '.':
-		case ',':
                     continue;
                 
             default:
